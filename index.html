@@ -70,6 +70,13 @@
         .equals { background: #ff6a00; color: white; grid-column: span 2; }
         .clear { background: #ff6b6b; color: white; }
         .sqrt { background: #9b59b6; color: white; }
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body>
@@ -98,6 +105,7 @@
             <button class="equals" onclick="calculate()">=</button>
         </div>
     </div>
+    <footer class="footer">made with Claudear</footer>
     <script>
         let display = document.getElementById('display');
         let current = '0';
